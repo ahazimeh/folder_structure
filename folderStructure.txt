@@ -1,0 +1,38 @@
+lib (facad)
+assets
+components
+    form folder, ui(contains primitive components) , navbar ...
+context
+shared
+data
+    any json, constants ...
+hooks
+layout
+utils (small usefull and doesn't fit anywhere else)
+    helpers, formatting ... 
+pages
+services (calling api)
+    i18n, redux state, provider
+features
+    authentication
+        hooks, services, components(same as src folder - features)
+    features has index.js file, have index.js file and only import from this file, and index.js file will export everything I need
+
+__tests__
+setup/config
+models
+interfaces
+containers
+dtos
+
+
+web dev simplified
+https://www.youtube.com/watch?v=ANrYhHN8Dl4:
+
+watch: https://www.youtube.com/watch?v=Mm6_DlO5vvs
+
+to watch:
+https://www.youtube.com/watch?v=QhSXNY8sy_0&t=248s
+https://www.youtube.com/watch?v=XEO3mFvrDx0&t=470s
+https://www.youtube.com/watch?v=VY6tgKS02ao&t=478s
+https://www.youtube.com/watch?v=uqKoqcO08ho&t=707s
